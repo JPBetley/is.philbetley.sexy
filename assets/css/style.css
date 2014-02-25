@@ -1,0 +1,34 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.main {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -92px;
+    margin-left: -128.5px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 10em;
+    margin: 0;
+}
+
+.social-buttons {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+
+.social-buttons .fb_iframe_widget {
+    display: block;
+    margin-bottom: 10px;
+}
